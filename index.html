@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Gruppo&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Kalam:wght@300;400;700&family=Lilita+One&family=Luckiest+Guy&family=Oswald:wght@200..700&family=Pacifico&display=swap"
+        rel="stylesheet">
+</head>
+
+<!-- https://github.com/fasih-nasir -->
+<body>
+
+    <div class="heading">
+        <h1>Text Editor by <br> Hammad Liaquat</h1>
+    </div>
+
+    <div id="buttonContainer">
+        <button id="btn1" onclick="Bold()">Bold</button>
+        <button id="btn2" onclick="italic()">Italic</button>
+        <button id="btn3" onclick="upper()">UpperCase</button>
+        <button id="btn4" onclick="lower()">LowerCase</button>
+
+        <select name="" id="select" onclick="font()">
+            <option selected disabled>Font Family</option>
+            <option value="fantasy">fantasy</option>
+            <option value="monospace">monospace</option>
+            <option value=" serif"> serif</option>
+            <option value="Verdana, Geneva, Tahoma, sans-serif">sans-serif;</option>
+            <option value="Kalam"> kalam</option>
+            <option value="Pacifico">Pacific</option>
+            <option value="Luckiest Guy"> Luckiest Guy</option>
+            <option value="Oswald">sans-serif</option>
+            <option value="Josefin Sans">Josefin Sans</option>
+            <option value="Lilita One">Lilita One</option>
+            <option value="Gruppo"> Jersey 10</option>
+        </select>
+
+        <button id="btn6" onclick="under()">Under Line</button> <br> <br>
+        <button id="btn7" onclick="over()">over Line</button>
+        <button id="btn8" onclick="copy()">Copy</button>
+        <button id="btn9" onclick="paste()">Paste</button>
+        <button id="btn10" onclick="cut()">cut</button>
+        <button id="btn11" onclick="clean()">Clear</button>
+        <button id="btn11" onclick="del()">del</button>
+        <button id="btn12" onclick="Align()">Center</button><br> <br>
+
+        <br> <br>
+    </div> <br>
+
+    <div id="test">
+        <textarea rows="10" cols="70" name="" id="textArea" placeholder="Enter this type text...."></textarea>
+    </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
